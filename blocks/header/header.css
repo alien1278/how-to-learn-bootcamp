@@ -1,0 +1,23 @@
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    display: flex;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .logo_place_header {
+    width: 228px;
+    height: 32px;
+  
+    top: 30px;
+    left: 64px;
+    position: absolute;
+    z-index: 20;
+  }
+  

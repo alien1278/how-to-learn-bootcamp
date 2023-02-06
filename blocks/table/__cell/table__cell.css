@@ -1,0 +1,14 @@
+.table__cell {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    width: 250px;
+    /* min-height: 230px; */
+    /* margin-bottom: 60px; */
+    margin: 0;
+    margin-top: 60px;
+    list-style-type: none;
+    padding: 0;
+  }
+  

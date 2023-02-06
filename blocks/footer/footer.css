@@ -1,0 +1,18 @@
+.footer {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+  
+    background-color: #1f1f1f;
+  }
+
+
+.logo_place_footer {
+    width: 228px;
+    height: 32px;
+    margin-left: 0;
+    margin-top: 0;
+  
+    z-index: 20;
+  }
+  

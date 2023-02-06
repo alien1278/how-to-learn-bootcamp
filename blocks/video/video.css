@@ -1,0 +1,7 @@
+.video{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: -50px; */
+    transform: translateY(60px);
+}
