@@ -2,15 +2,15 @@
 ## Яндекс-Практикум
 
 ### Языки: 
-1.html 
-2.ccs 
+1. html 
+2. ccs 
 
 
 ### Технологии: 
-1.NestedBEM
-2.flexbox
-3.animation
-4.frame
+1. NestedBEM
+2. flexbox
+3. animation
+4. frame
 
 
 ### Описание: 
