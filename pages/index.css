@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/header/__link/header__link.css);
@@ -7,6 +7,10 @@
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
@@ -19,9 +23,9 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column/__content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column/__content/footer__column_content_info.css);
-@import url(../blocks/footer/__column/__content/footer__column_content_social.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
@@ -33,7 +37,7 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark\ .css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
@@ -93,16 +97,7 @@
 
 @import url(../blocks/rotation/rotation.css);
 
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
+
 /* div{
   border: 1px solid red;
 } */
